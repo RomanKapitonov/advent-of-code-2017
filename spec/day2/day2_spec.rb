@@ -1,7 +1,7 @@
 require 'spec_helper'
-require 'day2/solution'
+require 'day2/day2'
 
-RSpec.describe Solution do
+RSpec.describe Day2 do
   let(:input_from_file) do
     File.open('lib/day2/input').each_line.map do |line|
       line.split(/\s+/).map(&:to_i)

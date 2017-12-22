@@ -1,4 +1,4 @@
-class Solution
+class Day2
   attr_reader :matrix
 
   def initialize(matrix:)

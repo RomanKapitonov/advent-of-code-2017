@@ -1,7 +1,7 @@
 require 'spec_helper'
-require 'day1/solution'
+require 'day1/day1'
 
-RSpec.describe Solver do
+RSpec.describe Day1 do
   shared_examples 'calculates resulting number for part1' do |number:, expected:|
     context "for number #{number}" do
       subject(:solver) { described_class.new(number: number) }

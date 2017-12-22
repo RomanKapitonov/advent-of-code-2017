@@ -1,4 +1,4 @@
-class Solver
+class Day1
   attr_reader :number_list
 
   def initialize(number:)
