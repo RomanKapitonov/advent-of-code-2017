@@ -46,9 +46,7 @@ class Machine
   end
 
   def step
-    if instructions[pointer] == nil
-      raise OutOfRange
-    end
+    raise OutOfRange if instructions[pointer] == nil
 
     jump_length = instructions[pointer]
 
